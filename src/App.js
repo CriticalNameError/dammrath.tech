@@ -121,8 +121,8 @@ class App extends Component {
            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
            <li><a className="smoothscroll" href="#about">About</a></li>
           <li><a className="smoothscroll" href="#resume">Resume</a></li>
-           <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-           <li><a className="smoothscroll" href="#contact">Contact</a></li>
+           {/* <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+           <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
         </ul>
      </nav>
    
@@ -139,10 +139,11 @@ class App extends Component {
 
           <ul>
            <li className="current" ></li>
-            <li><a className="smoothscroll menu-link" href="#about" onClick={(e)=>{this.setState({menuIsOpen: false})}}>ABOUT</a></li>
-	         <li><a className="smoothscroll menu-link" href="#resume" onClick={(e)=>{this.setState({menuIsOpen: false})}}>RESUME</a></li>
-            <li><a className="smoothscroll menu-link" href="#portfolio" onClick={(e)=>{this.setState({menuIsOpen: false})}}>WORKS</a></li>
-            <li><a className="smoothscroll menu-link" href="#contact" onClick={(e)=>{this.setState({menuIsOpen: false})}}>CONTACT</a></li>
+           <li><a className="smoothscroll menu-link" href="#home" onClick={(e)=>{this.setState({menuIsOpen: false})}}>Home</a></li>
+            <li><a className="smoothscroll menu-link" href="#about" onClick={(e)=>{this.setState({menuIsOpen: false})}}>About</a></li>
+	         <li><a className="smoothscroll menu-link" href="#resume" onClick={(e)=>{this.setState({menuIsOpen: false})}}>Resume</a></li>
+            {/* <li><a className="smoothscroll menu-link" href="#portfolio" onClick={(e)=>{this.setState({menuIsOpen: false})}}>WORKS</a></li>
+            <li><a className="smoothscroll menu-link" href="#contact" onClick={(e)=>{this.setState({menuIsOpen: false})}}>CONTACT</a></li> */}
            </ul>
         {/* <a id="home" className="menu-item" href="/">Home</a>
         <a id="about" className="menu-item" href="/about">About</a>
@@ -152,8 +153,8 @@ class App extends Component {
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
-        <Contact data={this.state.resumeData.main}/>
+        {/* <Portfolio data={this.state.resumeData.portfolio}/> */}
+        {/* <Contact data={this.state.resumeData.main}/> */}
         <Footer data={this.state.resumeData.main}/>
       </div>
     );
