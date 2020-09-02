@@ -16,32 +16,17 @@
       "state":"NRW",
       "zip": "50668"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://www.dammrath.tech",
+    "resumedownload":"https://dammrath.tech/cv.pdf",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://linkedin.com/in/martin-c-dammrath/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/criticalnameerror/",
         "className":"fa fa-github"
       }
     ]
@@ -51,69 +36,81 @@
     "education":[
       {
         "school":"Cologne University of Applied Sciences",
-        "degree":"M.S. Computer Science",
-        "graduated":"February 2020",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "degree":"M.Sc. Computer Science",
+        "graduated":"February 2022",
+        "description":"IT Architecture, Software Engineering, IT Security"
       },
       {
         "school":"University of Cologne",
-        "degree":"B.S. Mathematics",
+        "degree":"B.Sc. Mathematics",
         "graduated":"November 2018",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Artificial Intelligence, Probability Theory, Numerical Mathematics"
       }
     ],
     "work":[
       {
         "company":"Berghaus & Cie. - Fine Wine Brokers",
         "title":"Head of IT",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "years":"July 2020 - Present",
+        "description":"Accountable for general IT landscape comprising ERP system, online broker and sales portfolio website.\nTechstack: Django/Wagtail, GraphQL, Celery, ReactJs, Redis, Postgres, Heroku, AWS"
       },
       {
         "company":"Ambient Innovation: GmbH",
         "title":"Web Developer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "years":"January 2020 - June 2020",
+        "description":"Develope web applications as part of SCRUM team for a variety of clients from different industry sectors. \nTechstack: Django, ReactJs, Docker, Sass, GitLab"
       },
       {
         "company":"DataSpark GmbH & Co. KG",
         "title":"IT Consultant & Data Scientist",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "years":"September 2017 - December 2019",
+        "description":"Support several financial service providers throughout Germany in Data Engineering and Data Science projects. \nTechstack: pandas, scikit-learn, tensorflow, SQL, trifacta"
       }
     ],
     "skills":[
       {
         "name":"Python",
-        "level":"60%"
-      },
-      {
-        "name":"JavaScript",
-        "level":"55%"
-      },
-      {
-        "name":"VueJs",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
         "level":"90%"
       },
       {
-        "name":"PHP",
+        "name":"Django",
+        "level":"95%"
+      },
+      {
+        "name":"JavaScript",
         "level":"80%"
       },
       {
-        "name":"Swift",
-        "level":"50%"
+        "name":"ReactJs",
+        "level":"87%"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "name":"NodeJs",
+        "level":"82%"
+      },
+      {
+        "name":"Docker",
+        "level":"78%"
+      },
+      {
+        "name":"REST",
+        "level":"91%"
+      },
+      {
+        "name":"GraphQL",
+        "level":"93%"
+      },
+      {
+        "name":"DevOps",
+        "level":"83%"
+      },
+      {
+        "name":"Machine Learning",
+        "level":"95%"
+      },
+      {
+        "name":"Fullstack",
+        "level":"99%"
       }
     ]
   },
