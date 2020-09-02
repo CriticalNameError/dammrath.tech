@@ -52,7 +52,6 @@
    #about .profile-pic {
       width: 114px;
       height: 114px;
-      margin-left: 12px;
    }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
@@ -109,10 +108,11 @@
       right: 0;
    }
    #nav-wrap > a {
-	   width: 48px;
-		height: 48px;
+      margin-top: 2px;
+	   width: 44px;
+		height: 44px;
 		text-align: left;
-		background-color: #CC5200;
+		background-color: #60a743;
 		position: relative;
       border: none;
       float: right;
@@ -141,8 +141,19 @@
 	#nav-wrap:not( :target ) > a:first-of-type,
 	#nav-wrap:target > a:last-of-type  {
 	   display: block;
-	}
-
+   }
+   .bm-burger-button{
+      visibility: visible!important;
+   }
+   .nav-bar-mobile{
+      height: 48px;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: linear-gradient(to right, rgb(51, 51, 51) 0%, rgb(68, 68, 68) 100%) rgb(68, 68, 68);
+      z-Index: 1000;
+   }
    /* hide menu panel */
    #nav-wrap ul#nav {
       height: auto;
@@ -171,8 +182,9 @@
       margin: 0 auto; 
       padding: 0 4%;           
       text-align: left;
-      border-bottom: 1px solid #2D2E34;
-      border-bottom-style: dotted; 
+
+      /* border-bottom: 1px solid #2D2E34;
+      border-bottom-style: dotted;  */
    }
   
    ul#nav li a {  
@@ -215,7 +227,8 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about {text-align: center;}
+   #about .profile-pic { display: inline; width: 200px; height: 200px; margin-bottom: 30px;}
    #about .download .button {
       width: 100%;
       text-align: center;

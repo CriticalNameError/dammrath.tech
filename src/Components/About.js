@@ -8,6 +8,7 @@ class About extends Component {
       var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
       var street = this.props.data.address.street;
+      var my_name = this.props.data.address.my_name;
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
@@ -17,12 +18,13 @@ class About extends Component {
     }
 
     return (
-      <section id="about">
+      <section id="about" >
+         <div>
       <div className="row">
          <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Nordic Giant Profile Pic" />
+            <img className="profile-pic"  src={profilepic} alt="Nordic Giant Profile Pic" data-aos="fade-right" data-aos-duration="1000" />
          </div>
-         <div className="nine columns main-col">
+         <div className="nine columns main-col" data-aos="fade-left" data-aos-duration="1000">
             <h2>About Me</h2>
 
             <p>{bio}</p>
@@ -30,7 +32,7 @@ class About extends Component {
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-						   <span>{name}</span><br />
+						   <span>{my_name}</span><br />
 						   <span>{street}<br />
 						         {city} {state}, {zip}
                    </span><br />
@@ -38,6 +40,7 @@ class About extends Component {
                      <span>{email}</span>
 					   </p>
                </div>
+               
                <div className="columns download">
                   <p>
                      <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
@@ -46,7 +49,7 @@ class About extends Component {
             </div>
          </div>
       </div>
-
+      </div>
    </section>
     );
   }
