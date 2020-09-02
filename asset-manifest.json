@@ -1,13 +1,13 @@
 {
-  "main.css": "./dammrath.tech/static/css/main.07318036.chunk.css",
-  "main.js": "./dammrath.tech/static/js/main.bb07f7ad.chunk.js",
-  "main.js.map": "./dammrath.tech/static/js/main.bb07f7ad.chunk.js.map",
-  "runtime~main.js": "./dammrath.tech/static/js/runtime~main.2a58a5a5.js",
-  "runtime~main.js.map": "./dammrath.tech/static/js/runtime~main.2a58a5a5.js.map",
-  "static/js/2.ec176464.chunk.js": "./dammrath.tech/static/js/2.ec176464.chunk.js",
-  "static/js/2.ec176464.chunk.js.map": "./dammrath.tech/static/js/2.ec176464.chunk.js.map",
-  "index.html": "./dammrath.tech/index.html",
-  "precache-manifest.db873d138a87e13620e75678ea879e2c.js": "./dammrath.tech/precache-manifest.db873d138a87e13620e75678ea879e2c.js",
-  "service-worker.js": "./dammrath.tech/service-worker.js",
-  "static/css/main.07318036.chunk.css.map": "./dammrath.tech/static/css/main.07318036.chunk.css.map"
+  "main.css": "/static/css/main.07318036.chunk.css",
+  "main.js": "/static/js/main.da0d4aa7.chunk.js",
+  "main.js.map": "/static/js/main.da0d4aa7.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.ec176464.chunk.js": "/static/js/2.ec176464.chunk.js",
+  "static/js/2.ec176464.chunk.js.map": "/static/js/2.ec176464.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.ceea012f1779a0c5c8feac0cbb42caec.js": "/precache-manifest.ceea012f1779a0c5c8feac0cbb42caec.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.07318036.chunk.css.map": "/static/css/main.07318036.chunk.css.map"
 }
