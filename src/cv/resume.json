@@ -1,0 +1,234 @@
+{
+    "basics": {
+      "name": "Martin C. Dammrath",
+      "description":"Having big ideas for your IT applications? I am excited to support you making your ambitions reality. Let's get down to it",
+      "label": "Computer Engineer",
+      "bio":"I am a passionate web technology practitioner with focus on software development and cloud architecture. To me it is a great joy building outstanding software that helps businesses thrive. ",
+      "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+      "image":"profilepic.jpg",
+      "picture": "https://andri.dk/static/3a12aa0364d1851eaab41841f8a12b88/284df/coffee-art.jpg",
+      "email": "martin.dammrath@gmail.com",
+      "summary": "Driven, independent Software Developer with a broad skill set.",
+      "phone": "+49 1578 0400 722",
+      "github":"https://github.com/nordicgiant2/react-nice-resume",
+      "project":"https://github.com/nordicgiant2/react-nice-resume",
+      "address":{
+        "my_name": "Martin C. Dammrath",
+        "street":"Jakordenstr. 23",
+        "city":"Cologne",
+        "state":"NRW",
+        "zip": "50668"
+      },
+      "website": "https://www.dammrath.tech",
+      "resumedownload":"https://dammrath.tech/cv.pdf",
+      "location": {
+        "city": "Cologne",
+        "countryCode": "GER",
+        "region": "NRW"
+      },
+      "profiles": [
+        {
+          "network": "Github",
+          "username": "andrioid",
+          "url": "https://github.com/andrioid",
+          "className":"fa fa-github"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "andriosk",
+          "url": "https://www.linkedin.com/in/andriosk/",
+          "className":"fa fa-linkedin"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company":"Berghaus & Cie. - Fine Wine Brokers",
+        "position": "Head of IT",
+        "website": "https://www.venuepos.net",
+        "startDate": "2020-01-01",
+        "years":"July 2020 - Present",
+        "summary": "Leading a team, building the next generation of Point-Of-Sale systems.",
+        "skills": ["React", "React Native", "Docker", "Postgres", "TypeScript"]
+      },
+      {
+        "company":"Ambient Innovation: GmbH",
+        "position": "Web Developer",
+        "website": "https://www.ambient-innovation.de",
+        "startDate": "2020-01-01",
+        "endDate": "2020-06-31",
+        "years":"January 2020 - June 2020",
+        "summary": "Helped to create a teaching platform for a large publisher. Pitched and developed an image-scaling microservice.",
+        "skills": [
+          "React",
+          "TypeScript",
+          "Docker",
+          "Firebase",
+          "Go",
+          "Microservices",
+          "React Native",
+          "Serverless",
+          "Postgres"
+        ]
+      },
+      {
+        "company":"DataSpark GmbH & Co. KG",
+        "position": "IT Consultant & Data Scientist",
+        "website": "https://dataspark.de",
+        "startDate": "2017-01-09",
+        "endDate": "2019-12-31",
+        "years":"September 2017 - December 2019",
+        "summary": "Pitched, developed and delivered a new user-focused app. Moved our infrastructure from a single server to full redundancy in Google Cloud. Ran in-house development, trained new employees, managed our infrastructure, coordinated with freelancers and did full-stack software development.",
+        "highlights": [
+          "Pitched, developed and shipped our new app",
+          "Migrated our infrastructure to a managed Kubernetes environment"
+        ],
+        "skills": [
+          "React",
+          "React Native",
+          "PHP",
+          "Go",
+          "JavaScript",
+          "MySQL",
+          "Kubernetes",
+          "Docker",
+          "Linux"
+        ]
+      }
+    ],
+    "volunteer": [
+      {
+        "organization": "Aalborg React Meetup",
+        "position": "Co-host",
+        "website": "https://www.meetup.com/Aalborg-React-React-Native-Meetup/",
+        "startDate": "2016-12-13",
+        "summary": "Speaker and co-host."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Aalborg University",
+        "area": "Computer Engineering",
+        "studyType": "BSc",
+        "startDate": "2007-08-01",
+        "endDate": "2012-03-01"
+      },
+      {
+        "institution": "J.B. Rainsberger / Sprettur ehf",
+        "area": "Test Driven Development",
+        "studyType": "Course",
+        "startDate": "2012-05-01",
+        "endDate": "2012-05-01"
+      },
+      {
+        "institution": "J.B. Rainsberger / Sprettur ehf",
+        "area": "Agile Design",
+        "studyType": "Course",
+        "startDate": "2012-05-02",
+        "endDate": "2012-05-03"
+      },
+      {
+        "institution": "Aalborg University",
+        "area": "Engineering Entrance",
+        "studyType": "Course",
+        "startDate": "2006-08-01",
+        "endDate": "2007-08-01"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Software Development",
+        "level": "Senior",
+        "color": "#444",
+        "keywords": [
+          "Go",
+          "PHP",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "React Native",
+          "C",
+          "C++",
+          "C#",
+          "TCL",
+          "Lua",
+          "Vue.js",
+          "TypeScript",
+          "Java",
+          "jQuery"
+        ]
+      },
+      {
+        "name": "System Operations",
+        "color": "#9a3d00",
+        "level": "Senior",
+        "keywords": [
+          "Github",
+          "DevOps",
+          "Linux",
+          "AWS",
+          "GCP",
+          "Terraform",
+          "Kubernetes",
+          "Docker",
+          "DNS",
+          "SMTP",
+          "Cisco",
+          "Asterisk",
+          "Jenkins",
+          "Gitlab",
+          "Windows",
+          "Mac"
+        ]
+      },
+      {
+        "name": "Databases",
+        "color": "#0762f9",
+        "level": "Senior",
+        "keywords": [
+          "MySQL",
+          "Postgres",
+          "MongoDB",
+          "Firestore",
+          "Memcache",
+          "Redis",
+          "SQLite"
+        ]
+      },
+      {
+        "name": "Processes and methodologies",
+        "color": "#3e5f09",
+        "level": "Senior",
+        "keywords": ["Agile", "Kanban", "Scrum"]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Icelandic",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "Danish",
+        "fluency": "Fluent"
+      },
+      {
+        "language": "English",
+        "fluency": "Fluent"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Technical",
+        "keywords": ["Programming", "Linux", "Gaming"]
+      },
+      {
+        "name": "Personal",
+        "keywords": ["Basketball", "Weight lifting", "Hiking", "Photography"]
+      }
+    ],
+    "meta": {
+      "theme": "elegant"
+    }
+  }
+  

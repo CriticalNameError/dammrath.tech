@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-
+import ReactPDF, { BlobProvider, Document } from '@react-pdf/renderer';
+import { CVDoc, CVFrontpage } from "../cv/CVDoc"
+import CVView from "../cv/CVView";
+ 
 class About extends Component {
   render() {
 
@@ -42,8 +45,9 @@ class About extends Component {
                </div>
                
                <div className="columns download">
-                  <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                 {/* <CVView></CVView> */}
+                                       <p>
+                     <a href={"/Martin_C_Dammrath_Software_Developer.pdf"} target={"_blank"} className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
