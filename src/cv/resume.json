@@ -48,6 +48,7 @@
         "website": "https://www.venuepos.net",
         "startDate": "2020-01-01",
         "years":"July 2020 - Present",
+        "description":"Accountable for general IT landscape comprising ERP system, online broker and sales portfolio website.\nTechstack: Django/Wagtail, GraphQL, Celery, ReactJs, Redis, Postgres, Heroku, AWS",
         "summary": "Leading a team, building the next generation of Point-Of-Sale systems.",
         "skills": ["React", "React Native", "Docker", "Postgres", "TypeScript"]
       },
@@ -58,6 +59,7 @@
         "startDate": "2020-01-01",
         "endDate": "2020-06-31",
         "years":"January 2020 - June 2020",
+        "description":"Develope web applications as part of SCRUM team for a variety of clients from different industry sectors. \nTechstack: Django, ReactJs, Docker, Sass, GitLab",
         "summary": "Helped to create a teaching platform for a large publisher. Pitched and developed an image-scaling microservice.",
         "skills": [
           "React",
@@ -78,6 +80,7 @@
         "startDate": "2017-01-09",
         "endDate": "2019-12-31",
         "years":"September 2017 - December 2019",
+        "description":"Support several financial service providers throughout Germany in Data Engineering and Data Science projects. \nTechstack: pandas, scikit-learn, tensorflow, SQL, trifacta",
         "summary": "Pitched, developed and delivered a new user-focused app. Moved our infrastructure from a single server to full redundancy in Google Cloud. Ran in-house development, trained new employees, managed our infrastructure, coordinated with freelancers and did full-stack software development.",
         "highlights": [
           "Pitched, developed and shipped our new app",
@@ -107,32 +110,18 @@
     ],
     "education": [
       {
-        "institution": "Aalborg University",
-        "area": "Computer Engineering",
-        "studyType": "BSc",
-        "startDate": "2007-08-01",
-        "endDate": "2012-03-01"
+        "institution": "Cologne University of Applied Sciences",
+        "area": "Computer Science and Engineering",
+        "studyType": "MSc",
+        "startDate": "2020-03-01",
+        "endDate": "2022-03-01"
       },
       {
-        "institution": "J.B. Rainsberger / Sprettur ehf",
-        "area": "Test Driven Development",
-        "studyType": "Course",
-        "startDate": "2012-05-01",
-        "endDate": "2012-05-01"
-      },
-      {
-        "institution": "J.B. Rainsberger / Sprettur ehf",
-        "area": "Agile Design",
-        "studyType": "Course",
-        "startDate": "2012-05-02",
-        "endDate": "2012-05-03"
-      },
-      {
-        "institution": "Aalborg University",
-        "area": "Engineering Entrance",
-        "studyType": "Course",
-        "startDate": "2006-08-01",
-        "endDate": "2007-08-01"
+        "institution": "University of Cologne",
+        "area": "Mathematics",
+        "studyType": "Bsc",
+        "startDate": "2013-10-01",
+        "endDate": "2018-11-31"
       }
     ],
     "skills": [
@@ -141,22 +130,16 @@
         "level": "Senior",
         "color": "#444",
         "keywords": [
-          "Go",
-          "PHP",
+          "Python",
+          "Django",
+          "Javascript",
+          "Node.js",
+          "React.js",
+          "React Native",
           "HTML",
           "CSS",
-          "JavaScript",
-          "React",
-          "React Native",
-          "C",
-          "C++",
-          "C#",
-          "TCL",
-          "Lua",
-          "Vue.js",
-          "TypeScript",
-          "Java",
-          "jQuery"
+          "Sass",
+          "Java"
         ]
       },
       {
@@ -169,14 +152,9 @@
           "Linux",
           "AWS",
           "GCP",
-          "Terraform",
           "Kubernetes",
           "Docker",
           "DNS",
-          "SMTP",
-          "Cisco",
-          "Asterisk",
-          "Jenkins",
           "Gitlab",
           "Windows",
           "Mac"
@@ -187,11 +165,9 @@
         "color": "#0762f9",
         "level": "Senior",
         "keywords": [
-          "MySQL",
           "Postgres",
+          "MySQL",
           "MongoDB",
-          "Firestore",
-          "Memcache",
           "Redis",
           "SQLite"
         ]
@@ -205,26 +181,26 @@
     ],
     "languages": [
       {
-        "language": "Icelandic",
+        "language": "German",
         "fluency": "Native speaker"
       },
       {
-        "language": "Danish",
+        "language": "English",
         "fluency": "Fluent"
       },
       {
-        "language": "English",
+        "language": "Spanish",
         "fluency": "Fluent"
       }
     ],
     "interests": [
       {
         "name": "Technical",
-        "keywords": ["Programming", "Linux", "Gaming"]
+        "keywords": ["Microservices", "Realtime Applications", "Mathematical Optimization"]
       },
       {
         "name": "Personal",
-        "keywords": ["Basketball", "Weight lifting", "Hiking", "Photography"]
+        "keywords": ["Runnging", "Tabata", "Hiking", "Sketching"]
       }
     ],
     "meta": {
