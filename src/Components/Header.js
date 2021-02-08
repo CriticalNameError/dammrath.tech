@@ -3,8 +3,48 @@ import ParticlesBg  from "particles-bg";
 import Particles from 'react-particles-js';
 import Granim from 'react-granim'
 import granim from 'granim'
-import { slide as Menu } from 'react-burger-menu'
+import { slide as Menu } from 'react-burger-menu';
+
+import WAVES from 'vanta/dist/vanta.waves.min'
+// Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
+
+// export default class Header extends React.Component {
+//   constructor() {
+//     super()
+//     this.vantaRef = React.createRef()
+//   }
+//   componentDidMount() {
+//     this.vantaEffect = WAVES({
+//       el: this.vantaRef.current
+//     })
+//   }
+//   componentWillUnmount() {
+//     if (this.vantaEffect) this.vantaEffect.destroy()
+//   }
+//   render() {
+//     return <section class={"Header"} style={{height: "75%"}}ref={this.vantaRef}>
+//       Foreground content goes here
+//     </section>
+//   }
+// }
+
+
+
+
 class Header extends Component {
+  constructor() {
+    super()
+    this.vantaRef = React.createRef()
+  }
+  componentDidMount() {
+    this.vantaEffect = WAVES({
+      el: this.vantaRef.current,
+      zoom: 0.75
+    })
+  }
+  componentWillUnmount() {
+    if (this.vantaEffect) this.vantaEffect.destroy()
+  }
   render() {
 
    // var granimInstance = new granim({
@@ -124,7 +164,8 @@ class Header extends Component {
     }
 
     return (
-      <header id="home" >
+      <div id="home" class="container" ref={this.vantaRef} >
+        <h1>HALLO</h1>
          {/* <Particles  params={{
 	    "particles": {
 	        "number": {
@@ -143,7 +184,7 @@ class Header extends Component {
 	        }
 	    }
 	}}/> */}
-      <ParticlesBg color="#90b159" num={80} type="cobweb" bg={true}  />
+     <div >Some Stuff!!</div>
       {/* <nav id="nav-wrap">
 
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -170,7 +211,7 @@ class Header extends Component {
          </ul>
       </nav> */}
 
-      <div className="row banner" >
+      <div className="row banner" style={{zIndex: 5}}>
  
       <img src="images/logo_1.png" width="500px"  data-aos="fade-down" data-aos-duration="1200"></img>
         
@@ -194,7 +235,7 @@ class Header extends Component {
          <a className="smoothscroll" href="#about"><i className="icon-down-circle icon-down" ></i></a>
       </p>
 
-   </header>
+   </div>
     );
   }
 }
