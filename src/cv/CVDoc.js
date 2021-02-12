@@ -51,7 +51,7 @@ function durationForWork(work) {
   const start = work.startDate && new Date(work.startDate);
   const end = (work.endDate && new Date(work.endDate)) || new Date();
 
-  const diff = (end.getTime() - start.getTime()) / 1000 / 60 / 60 / 24 / 365;
+  const diff = (end.getTime() - start.getTime()) / 1000 / 60 / 60 / 24 / 30 ;
   return Math.floor(diff);
 }
 
@@ -111,7 +111,7 @@ export const CVFrontpage = () => (
         <Text style={{ fontSize: 20, fontWeight: "semibold", textAlign: "left" }}>
           {resume.basics.name}
         </Text>
-        <Text style={{ fontSize: 12, textAlign: "left" }}>Fullstack Developer | IT Architect | Consultant</Text>
+        <Text style={{ fontSize: 12, textAlign: "left" }}>Computer Science Student | Full-Stack Web Developer</Text>
         <View style={{ flexDirection: "row", justifyContent: "flex-start", paddingTop: 4, color: "#c06d00", fontSize: 7, fontWeight: "bold"}}>
         <Text>{resume.basics.phone} | </Text>
         <Text>{resume.basics.email}</Text>
@@ -191,33 +191,29 @@ export const CVFrontpage = () => (
 
         <Box title="About">
           <Paragraph>
-            I come from Reykjavík, Iceland and am the oldest of 5 brothers. In
-            2006 I moved to Denmark to study. I now live near Aalborg, Denmark
-            with my girlfriend and son. In my off-time I like to cook, take
-            photos and go for walks.
+            I was born and raised in a small town in the German country side. I am an active persons that likes to
+            do sports like crossfit, swimming and cycling. I love spending time in the nature with my wife Maria and my family.
           </Paragraph>
           <Paragraph>
-            I've been facinated by computers since age 8 and spend much of my
-            free time, learning more about them.
+            I enjoy solving complex problems and building things (not only software, but hardware like our kitchen for example).
           </Paragraph>
         </Box>
 
         <Box title="Languages">
-          <Text>Icelandic (native)</Text>
+          <Text>German (native)</Text>
           <Text>English (fluent)</Text>
-          <Text>Danish (fluent)</Text>
+          <Text>Spanish (advanced)</Text>
         </Box>
 
         <Box title="Social">
-          <Text>Co-organizer & Speaker Aalborg React Meetup</Text>
-          <Text>Co-organizer & Speaker Aalborg Hackathon</Text>
+          <Text>Member of K.D.St.V. Rappoltstein Straßburg zu Köln</Text>
         </Box>
 
-        <Box title="Contact">
+        {/* <Box title="Contact">
           <Link src="mailto:martin.dammrath@gmail.com">
             <Text>martin.dammrath@gmail.com</Text>
           </Link>
-        </Box>
+        </Box> */}
       </View>
       <View wrap={true} style={styles.right}>
         <View>
@@ -229,6 +225,7 @@ export const CVFrontpage = () => (
               title={w.position}
               employer={w.company}
               period={periodToString(w.startDate, w.endDate)}
+              duration={durationForWork(w)}
               tags={w.skills}
               skills={resume.skills}
             >
@@ -236,7 +233,7 @@ export const CVFrontpage = () => (
             </TimelineItem>
           ))}
           <View style={styles.view}>
-                        <Image style={styles.image}  src={path.join(__dirname, '../../public/images/polygon.png')} alt="images" />
+                        {/* <Image style={styles.image}  src={path.join(__dirname, '../../public/images/polygon.png')} alt="images" /> */}
                     </View>
         </View>
       </View>

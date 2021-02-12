@@ -23,16 +23,13 @@ class About extends Component {
     return (
       <section id="about" >
          <div>
-      <div className="row">
-         <div className="three columns">
+      <div className="row text-center">
+         {/* <div className="three columns">
             <img className="profile-pic"  src={profilepic} alt="Nordic Giant Profile Pic" data-aos="fade-right" data-aos-duration="1000" />
-         </div>
-         <div className="nine columns main-col" data-aos="fade-left" data-aos-duration="1000">
-            <h2>About Me</h2>
-
-            <p>{bio}</p>
-            <div className="row">
-               <div className="columns contact-details">
+         </div> */}
+         
+          
+               <div className="text-justify">
                   <h2>Contact Details</h2>
                   <p className="address">
 						   <span>{my_name}</span><br />
@@ -42,18 +39,22 @@ class About extends Component {
 						   <span>{phone}</span><br />
                      <span>{email}</span>
 					   </p>
+                  <div className="" style={{marginLeft: "20px", marginRight: "20px"}}>
+                 {/* <CVView></CVView> */}
+                                    
+                     <a href={"/Martin_C_Dammrath_Software_Developer.pdf"} target={"_blank"} className="button" style={{background: "#444444"}}><i className="fa fa-download "></i> Download Resume</a>
+                  
+                  
+               </div>
                </div>
                
-               <div className="columns download">
-                 {/* <CVView></CVView> */}
-                                       <p>
-                     <a href={"/Martin_C_Dammrath_Software_Developer.pdf"} target={"_blank"} className="button"><i className="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
-            </div>
-         </div>
+              
+
+           
+         
       </div>
       </div>
+      
    </section>
     );
   }

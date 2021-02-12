@@ -8,21 +8,21 @@
       "image":"profilepic.jpg",
       "picture": "https://andri.dk/static/3a12aa0364d1851eaab41841f8a12b88/284df/coffee-art.jpg",
       "email": "martin.dammrath@gmail.com",
-      "summary": "Driven, independent Software Developer with a broad skill set.",
+      "summary": "Driven, independent Computer Science student with a broad skill set.",
       "phone": "+49 1578 0400 722",
       "github":"https://github.com/nordicgiant2/react-nice-resume",
       "project":"https://github.com/nordicgiant2/react-nice-resume",
       "address":{
         "my_name": "Martin C. Dammrath",
-        "street":"Jakordenstr. 23",
-        "city":"Cologne",
+        "street":"Rotdornalee 51A",
+        "city":"Rösrath",
         "state":"NRW",
-        "zip": "50668"
+        "zip": "51503"
       },
       "website": "https://www.dammrath.tech",
       "resumedownload":"https://dammrath.tech/cv.pdf",
       "location": {
-        "city": "Cologne",
+        "city": "Rösrath",
         "countryCode": "GER",
         "region": "NRW"
       },
@@ -44,33 +44,33 @@
     "work": [
       {
         "company":"Berghaus & Cie. - Fine Wine Brokers",
-        "position": "Head of IT",
-        "website": "https://www.venuepos.net",
+        "position": "Co-Founder (responsible for IT)",
+        "website": "https://berghaus-cie.de",
         "startDate": "2020-01-01",
         "years":"July 2020 - Present",
-        "description":"Accountable for general IT landscape comprising ERP system, online broker and sales portfolio website.\nTechstack: Django/Wagtail, GraphQL, Celery, ReactJs, Redis, Postgres, Heroku, AWS",
-        "summary": "Leading a team, building the next generation of Point-Of-Sale systems.",
-        "skills": ["React", "React Native", "Docker", "Postgres", "TypeScript"]
+        "description":"Building a web-based Fine Wine broker for German customers. Awarded with Gründerstipendium NRW.\nTechstack: Django/Wagtail, GraphQL, Celery, React, Redis, Postgres, Heroku, AWS",
+        "summary": "Building a web-based Fine Wine broker for German customers. Awarded with Gründerstipendium Nordrhein-Westfalen.\nTechstack: Django/Wagtail, GraphQL, Celery, ReactJs, Redis, Postgres, Heroku, AWS.",
+        "skills": ["React", "Redux", "Django", "Heroku", "Postgres", "Redis"]
       },
       {
         "company":"Ambient Innovation: GmbH",
-        "position": "Web Developer",
+        "position": "Student Web Developer",
         "website": "https://www.ambient-innovation.de",
         "startDate": "2020-01-01",
         "endDate": "2020-06-31",
         "years":"January 2020 - June 2020",
-        "description":"Develope web applications as part of SCRUM team for a variety of clients from different industry sectors. \nTechstack: Django, ReactJs, Docker, Sass, GitLab",
-        "summary": "Helped to create a teaching platform for a large publisher. Pitched and developed an image-scaling microservice.",
+        "description":"Develop web applications as part of Scrum team for a variety of clients from different industry sectors. \nTechstack: Django, React, Docker, Sass, GitLab",
+        "summary": "Develop web applications as part of Scrum team for a variety of clients from different industry sectors. \nTechstack: Django, React, Docker, Sass, GitLab.",
         "skills": [
           "React",
-          "TypeScript",
+          "Django",
           "Docker",
-          "Firebase",
-          "Go",
-          "Microservices",
-          "React Native",
-          "Serverless",
-          "Postgres"
+          "AWS",
+          "Sentry",
+          "mariaDB",
+          "Scrum",
+          "GitLab",
+          "Sentry"
         ]
       },
       {
@@ -81,21 +81,19 @@
         "endDate": "2019-12-31",
         "years":"September 2017 - December 2019",
         "description":"Support several financial service providers throughout Germany in Data Engineering and Data Science projects. \nTechstack: pandas, scikit-learn, tensorflow, SQL, trifacta",
-        "summary": "Pitched, developed and delivered a new user-focused app. Moved our infrastructure from a single server to full redundancy in Google Cloud. Ran in-house development, trained new employees, managed our infrastructure, coordinated with freelancers and did full-stack software development.",
+        "summary": "Support several financial service providers throughout Germany in Data Engineering and Data Science projects. \nTechstack: pandas, scikit-learn, tensorflow, keras, SparkSQL, trifacta",
         "highlights": [
           "Pitched, developed and shipped our new app",
           "Migrated our infrastructure to a managed Kubernetes environment"
         ],
         "skills": [
-          "React",
-          "React Native",
-          "PHP",
-          "Go",
-          "JavaScript",
-          "MySQL",
-          "Kubernetes",
-          "Docker",
-          "Linux"
+          "Python",
+          "Machine Learning",
+          "Deep Learning",
+          "Reinforcement Learning",
+          "Data Modeling",
+          "Business Intelligence",
+          "Microsoft Power BI"
         ]
       }
     ],
@@ -112,14 +110,14 @@
       {
         "institution": "Cologne University of Applied Sciences",
         "area": "Computer Science and Engineering",
-        "studyType": "MSc",
+        "studyType": "M.Sc.",
         "startDate": "2020-03-01",
-        "endDate": "2022-03-01"
+        "endDate": "2022"
       },
       {
         "institution": "University of Cologne",
         "area": "Mathematics",
-        "studyType": "Bsc",
+        "studyType": "B.Sc.",
         "startDate": "2013-10-01",
         "endDate": "2018-11-31"
       }
@@ -134,12 +132,13 @@
           "Django",
           "Javascript",
           "Node.js",
-          "React.js",
-          "React Native",
+          "Express",
+          "React",
           "HTML",
           "CSS",
           "Sass",
           "Java"
+          
         ]
       },
       {
@@ -148,14 +147,15 @@
         "level": "Senior",
         "keywords": [
           "Github",
-          "DevOps",
           "Linux",
+          "Heroku",
           "AWS",
-          "GCP",
+          "Google Cloud",
+          "CI/CD",
           "Kubernetes",
           "Docker",
-          "DNS",
-          "Gitlab",
+          "TravisCI",
+          "Sentry",
           "Windows",
           "Mac"
         ]
@@ -166,7 +166,7 @@
         "level": "Senior",
         "keywords": [
           "Postgres",
-          "MySQL",
+          "mariaDB",
           "MongoDB",
           "Redis",
           "SQLite"
@@ -176,7 +176,7 @@
         "name": "Processes and methodologies",
         "color": "#3e5f09",
         "level": "Senior",
-        "keywords": ["Agile", "Kanban", "Scrum"]
+        "keywords": ["Agile", "Kanban", "Scrum", "Test Driven Development"]
       }
     ],
     "languages": [

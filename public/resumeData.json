@@ -1,6 +1,6 @@
 {
   "main": {
-    "name":" Tech expertise at your fingertips! ",
+    "name":"Martin C. Dammrath",
     "description":"Having big ideas for your IT applications? I am excited to support you making your ambitions reality. Let's get down to it",
     "image":"profilepic.jpg",
     "bio":"I am a passionate web technology practitioner with focus on software development and cloud architecture. To me it is a great joy building outstanding software that helps businesses thrive. ",
@@ -35,13 +35,13 @@
     "skillmessage":"Technologies and concepts I am familiar with:",
     "education":[
       {
-        "school":"Cologne University of Applied Sciences",
+        "school":"Technische Hochschule Köln",
         "degree":"M.Sc. Computer Science",
         "graduated":"February 2022",
         "description":"IT Architecture, Software Engineering, IT Security"
       },
       {
-        "school":"University of Cologne",
+        "school":"Universität zu Köln",
         "degree":"B.Sc. Mathematics",
         "graduated":"November 2018",
         "description":"Artificial Intelligence, Probability Theory, Numerical Mathematics"
@@ -50,7 +50,7 @@
     "work":[
       {
         "company":"Berghaus & Cie. - Fine Wine Brokers",
-        "title":"Head of IT",
+        "title":"Co-Founder (responsible for IT)",
         "years":"July 2020 - Present",
         "description":"Accountable for general IT landscape comprising ERP system, online broker and sales portfolio website.\nTechstack: Django/Wagtail, GraphQL, Celery, ReactJs, Redis, Postgres, Heroku, AWS"
       },

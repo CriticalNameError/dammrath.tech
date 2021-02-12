@@ -81,6 +81,7 @@ export const TimelineItem = ({
   idx = 0,
   title,
   period,
+  duration,
   children,
   employer,
   tags = [],
@@ -233,7 +234,7 @@ export const periodToString = (startDate, endDate) => {
   }
   const start = dayjs(startDate);
   const end = dayjs(endDate);
-  const dateformat = "YYYY";
+  const dateformat = "MM/YYYY";
 
   if (endDate === startDate) {
     return `${start.format(dateformat)}`;

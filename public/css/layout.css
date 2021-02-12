@@ -33,7 +33,6 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   
    text-align: center;
    overflow: hidden;
    /* background-color: #c1d1ba; */
@@ -186,6 +185,14 @@ ul#nav li.current a { color: #ff9100  }/*#60a743;
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
+.profile-pic {
+   position: relative;
+   width: 220px;
+   height: 220px;
+   border-radius: 100%;
+   max-width: none;
+}
+
 .icon-down{
    color: #ff9100;
 }
@@ -194,10 +201,12 @@ ul#nav li.current a { color: #ff9100  }/*#60a743;
    color: #b96900
 }
 .menu-link{
-   /* font-family: 'Thasadith', sans-serif!important; */
+   font-family: 'Montserrat', sans-serif!important;
    font-size: 1.3em;
+   text-transform: uppercase;
    color: #ff9100 !important;
    margin-bottom: 20px;
+   font-weight: normal!important;
 }
 
 .menu-link:hover{
@@ -285,7 +294,7 @@ ul#nav li.current a { color: #ff9100  }/*#60a743;
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'Montserrat', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -294,7 +303,7 @@ ul#nav li.current a { color: #ff9100  }/*#60a743;
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 25px/30px 'Montserrat', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -303,10 +312,9 @@ ul#nav li.current a { color: #ff9100  }/*#60a743;
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
+   font: 16px/24px 'Montserrat', sans-serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -316,7 +324,7 @@ ul#nav li.current a { color: #ff9100  }/*#60a743;
    margin-left: 5px;
 }
 #resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   font: 15px/24px 'Montserrat', sans-serif;
    margin-top: 6px;
 }
 
@@ -342,7 +350,7 @@ ul#nav li.current a { color: #ff9100  }/*#60a743;
   	border-radius: 0px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+	font: 15px 'Montserrat', sans-serif;
    color: #313131;
 	text-transform: uppercase;
    letter-spacing: 2px;
@@ -463,7 +471,7 @@ ul#nav li.current a { color: #ff9100  }/*#60a743;
 
 .burger-icon{
    font-family: 'Thasadith', sans-serif!important;
-   color: #cf5300;
+   color: #ff9100;
    font-family:
    
 }
@@ -482,7 +490,7 @@ ul#nav li.current a { color: #ff9100  }/*#60a743;
 
 .logo{
    font-family: 'Thasadith', sans-serif!important;
-   color: rgb(68, 68, 68);
+   color: #ff9100;
    font-size: 2.3em;
    padding: 4px 20px 0px 20px
 }
@@ -876,7 +884,7 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font-family: 'Montserrat', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
